@@ -1,0 +1,68 @@
+.Edwardian{
+    font-family: "Edwardian Script ITC";
+    font-size: 120px;
+    text-align: center;
+    color: red;    
+}
+.overflow{
+    overflow: scroll;
+}
+.text-black{
+    color: black;
+}
+.bg-img{
+    background-image:  url("./img/bg.png");
+    overflow: scroll;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+}
+.dropdown-content{
+    position: relative;  
+    min-width:160px;
+    z-index: 1;
+    display: none;
+    >a{
+        transition: all 200ms ease-in;
+    }
+}
+.dropdown-content a {
+    color: black;
+    padding-left: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown .women:hover .dropdown-content{
+    display: block;
+    transition: all 0.3 ease 0s, visibility 0s linear 0.3s, z-index 0s linear;
+}
+.dropdown .men:hover .dropdown-content{
+    display: block;
+}
+.dropdown .bags:hover .dropdown-content{
+    display: block;
+}
+.dropdown .shoes:hover .dropdown-content{
+    display: block;
+}
+.dropdown .sale:hover .dropdown-content{
+    display: block;
+}.dropdown .acc:hover .dropdown-content{
+    display: block;
+}
+/* .women{
+    position: relative;
+}
+.dropdown-content{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    transform: translateY(-3em);
+} */
