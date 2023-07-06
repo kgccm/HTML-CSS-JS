@@ -11,19 +11,20 @@
     color: black;
 }
 .bg-img{
-    background-image:  url("./img/bg.png");
+    background-image:  url("../img/bg.png");
     overflow: scroll;
 }
-
 .dropdown{
+    padding-top: 20px;
     position: relative;
     display: inline-block;
-    transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
 }
 .dropdown-content{
     position: relative;  
     min-width:160px;
     z-index: 1;
+   
     display: none;
     >a{
         transition: all 200ms ease-in;
@@ -54,15 +55,14 @@
 }.dropdown .acc:hover .dropdown-content{
     display: block;
 }
-/* .women{
-    position: relative;
+footer{
+    text-align: center;
+    padding-top: 34%;
+    padding-bottom: 0;
+    color: red;
+    font-family: "Edwardian Script ITC";
+    font-size: 50px;
 }
-.dropdown-content{
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 100;
-    left: 0;
-    width: 100%;
-    transform: translateY(-3em);
-} */
+.copyright{
+    font-family: Edwardian;
+}

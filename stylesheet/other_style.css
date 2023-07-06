@@ -1,0 +1,119 @@
+ /* 로고 글꼴 */
+.Edwardian{
+    font-family: "Edwardian Script ITC";
+    font-size: 120px;
+    text-align: center;
+    color: red;    
+}
+/* 본문 스타일 그리드로 */
+body{
+    /* background-color: ivory; */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "menu menu menu"
+        ". content."
+        "footer footer footer";
+        text-align: center;
+  }
+  
+ .header {
+    grid-area: header;
+  }
+  
+  
+.menu {
+    grid-area: menu;
+    padding-bottom: 50px;
+  }
+  
+.content {
+    grid-area: content;
+  }
+  
+.footer {
+    grid-area: footer;
+    /* height: 10px; */
+    /* padding-top: 10%; */
+  }
+  
+  
+  /* OTHER STYLES */
+
+  
+.item {
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  
+.content{
+    /* background-color: ivory; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:50px;
+    margin: 0%;
+    padding: 0%;
+  }
+.footer {
+    /* background-color: ivory; */
+    padding-top: 30%;
+ }
+  
+ul{
+    list-style: none;
+  }
+.w-menu-list li{
+    float: left;
+    border-radius: 5px;
+    padding: 10px 12px 10px 12px;
+}
+.w-menu-list li:hover{
+    background-color: black;
+    color:white;
+}
+.w-sidebar-list{
+    line-height: 50px;
+}
+.w-sidebar-list li{
+  border-radius: 10px;
+  text-align: center;
+}
+.w-sidebar-list li:hover{
+  background-color: black;
+  color:white;
+}
+
+/* 이미지에 마우스 호버시 이미지 확대 애니메이션 */
+#clothes:hover{
+  transform: scale(1.05);
+  /* border-radius: 20%; */
+  transition: all 0.3s ease-out;
+  overflow: hidden;  
+}
+
+.w_clothes{
+  object-fit: cover;
+}
+.intro_clothes{
+  font-size: 15px;
+  font-weight: 1;
+  font-style: italic;
+}
+.menu_Select{
+  font-size: larger;
+}
