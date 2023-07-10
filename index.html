@@ -1,118 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project</title>
-     <!-- Tailwindcss CDN -->
-     <script src="https://cdn.TailwindCss.com"></script>
-     <!-- Custom CSS -->
-     <link rel="stylesheet" href="/stylesheet/index_style.css">
+    <!-- Tailwindcss CDN -->
+    <script src="https://cdn.TailwindCss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/stylesheet/index_style.css">
 
 </head>
+
 <body class="bg-img">
     <header>
         <h2 class="Edwardian">
             <a href="index.html">Sleek</a>
         </h2>
     </header>
-     <!-- SIDE BAR -->
-     <nav id="sideBar" class="absolute top-0 left-0 w-80 h-full px-4 lg:block z-30">
+    <!-- SIDE BAR -->
+    <nav id="sideBar" class="absolute top-0 left-0 w-80 h-full px-4 lg:block z-30">
         <div class="mt-12 h-48 px-4 flex flex-col justify-center">
             <h2 class="text-5xl text-red font-semibold">
-                Category 
+                Category
             </h2>
         </div>
         <ul class="sideBar_nav_menu dropdown">
             <li class="women">
-                <a href="Women_default_Top.html"
-                class="font-semibold text-3xl text-black px-4 py-3 hover:text-white">Women</a><br>
+                <a href="Women/Women_default_Top.html"
+                    class="font-semibold text-3xl text-black px-4 py-3 hover:text-white">Women</a><br>
                 <div class="dropdown-content">
-                    <a href="Women_default_Top.html" id="w-list" class="text-black  hover:text-white">Top</a> <br>
-                    <a href="Women_Outer.html" id="w-list" class="text-black  hover:text-white">Outer</a> <br>
-                    <a href="Women_Bottom.html" id="w-list" class="text-black  hover:text-white">Bottom</a> <br>
-                    <a href="Women_Summer_Collection.html" id="w-list" class="text-black  hover:text-white">Summer Collection</a> <br>
-                    <a href="Women_Bag.html" id="w-list" class="text-black  hover:text-white">Bag</a><br>
-                    <a href="Women_Shoes.html" id="w-list" class="text-black  hover:text-white">Shoes</a><br>
-                    <a href="Women_Acc.html" id="w-list" class="text-black  hover:text-white">Acc</a><br>
-                    <a href="Women_Jewerly.html" id="w-list" class="text-black hover:text-white">Jewerly</a><br>
+                    <a href="Women/Women_default_Top.html" id="w-list" class="text-black  hover:text-white">Top</a> <br>
+                    <a href="Women/Women_Outer.html" id="w-list" class="text-black  hover:text-white">Outer</a> <br>
+                    <a href="Women/Women_Bottom.html" id="w-list" class="text-black  hover:text-white">Bottom</a> <br>
+                    <a href="Women/Women_Summer_Collection.html" id="w-list" class="text-black  hover:text-white">Summer
+                        Collection</a> <br>
+                    <a href="Women/Women_Bag.html" id="w-list" class="text-black  hover:text-white">Bag</a><br>
+                    <a href="Women/Women_Shoes.html" id="w-list" class="text-black  hover:text-white">Shoes</a><br>
+                    <a href="Women/Women_Acc.html" id="w-list" class="text-black  hover:text-white">Acc</a><br>
+                    <a href="Women/Women_Jewerly.html" id="w-list" class="text-black hover:text-white">Jewerly</a><br>
                 </div>
             </li>
-                <li class="men">
-                    <a href="Men.html"
-                    class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Men</a><br>
-                    <div class="dropdown-content">
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
-                    </div>
-                </li>
-                <li class="bags">
-                    <a href="Bags.html"
-                    class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Bags</a><br>
-                    <div class="dropdown-content">
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
-                    </div>
-                </li>
-                <li class="shoes">
-                    <a href="Shoes.html"
-                    class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Shoes</a>
-                    <div class="dropdown-content">
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
-                    </div>
-                </li>
-                <li class="sale">
-                    <a href="Sale.html"
-                    class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Sale</a><br>
-                    <div class="dropdown-content">
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
-                    </div>
-                </li>
-                <li class="acc">
-                    <a href="Acc.html"
-                    class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Acc</a><br>
-                    <div class="dropdown-content">
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
-                        <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
-                    </div>
-                </li>
+            <li class="men">
+                <a href="Men.html" class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Men</a><br>
+                <div class="dropdown-content">
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
+                </div>
+            </li>
+            <li class="bags">
+                <a href="Bags.html" class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Bags</a><br>
+                <div class="dropdown-content">
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
+                </div>
+            </li>
+            <li class="shoes">
+                <a href="Shoes.html" class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Shoes</a>
+                <div class="dropdown-content">
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
+                </div>
+            </li>
+            <li class="sale">
+                <a href="Sale.html" class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Sale</a><br>
+                <div class="dropdown-content">
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
+                </div>
+            </li>
+            <li class="acc">
+                <a href="Acc.html" class="font-semibold text-3xl text-black px-4 py-3  hover:text-white">Acc</a><br>
+                <div class="dropdown-content">
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Top</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Outer</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Bottom</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Sports/Goods</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Headwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Socks&Legwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Underwear</a> <br>
+                    <a href="#" id="m-list" class="text-black  hover:text-white">Jewelry</a> <br>
+                </div>
+            </li>
         </ul>
-        </nav>
-        <main>
-            
-            
-        </main>
-        <footer>copyright &copy; by Kwon Hee Yong</footer>
-    </body>
+    </nav>
+    <main>
+
+
+    </main>
+    <footer>copyright &copy; by Kwon Hee Yong</footer>
+</body>
 
 </html>
